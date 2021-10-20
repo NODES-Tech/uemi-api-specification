@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "UMEI API Specification",
-    "description": "Specification for UMEI FMO API",
+    "description": "Specification for UMEI FMO API ",
     "version": "1.0.0"
   },
   "servers": [
@@ -2065,7 +2065,7 @@
           },
           "energyProduction": {
             "type": "number",
-            "description": "Total power production during the period in MWh. \r\nMust be non-negative. \r\n \r\n            \r\nThe unit is MWh.\r\nThis means that if this baseline interval covers\r\nthe period 08:00 to 08:30 and has a EnergyConsumption of 10 (MWh),\r\nthe actual energy produced during the entire interval is\r\n10MWh, and the average power consumption is 20MW.",
+            "description": "Total energy production during the period in MWh. \r\nMust be non-negative. \r\n \r\n            \r\nThe unit is MWh.\r\nThis means that if this baseline interval covers\r\nthe period 08:00 to 08:30 and has a EnergyProduction of 10 (MWh),\r\nthe actual energy produced during the entire interval is\r\n10MWh, and the average power production is 20MW.",
             "format": "double"
           },
           "energyConsumption": {
